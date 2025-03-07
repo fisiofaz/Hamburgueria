@@ -5,6 +5,7 @@
     font-size: 62.5%;
     --bg-primaria: #141414;
     --color-text-primario: #ffffff;
+    --color-text-secundario: #FE5A07;
 
 }
 
@@ -13,11 +14,22 @@ body {
     background-color: var(--bg-primaria);
     font-size: 1.8rem;
     color: var(--color-text-primario);
+
 }
 
-.cantainer {
+.container {
     max-width: 120rem;
     width: 100%;
     margin: auto;
     padding: 0 2rem;
+}
+
+.logo  a {
+    font-family: 'Calistoga', cursive;
+    font-size: 3.6rem;
+    color: var(--color-text-primario);
+}
+
+.logo a span {
+    color: var(--color-text-secundario);
 }
