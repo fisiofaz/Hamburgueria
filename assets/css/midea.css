@@ -7,10 +7,39 @@
         display: flex;
         cursor: pointer;
     }
+
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero .leftside {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .hero .rightside {
+        padding-bottom: 4rem;
+    }
+
+    .hero .rightside img {
+        height: 30rem;
+    }
+
+    .hero .leftside h1 {
+        font-size: 4.4rem;
+        line-height: 5rem;
+        margin-top: 3rem;
+    }
 }
 
 @media (max-width: 320px) {
     .header .logo a {
         font-size: 2.4rem;
+    }
+
+    .hero .leftside h1 {
+        font-size: 3.4rem;
+        line-height: 5rem;
+        margin-top: 3rem;
     }
 }
