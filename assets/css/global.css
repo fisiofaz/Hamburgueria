@@ -6,14 +6,16 @@
     --bg-primaria: #141414;
     --color-text-primario: #ffffff;
     --color-text-secundario: #FE5A07;
-
+    --color-text-hover: #999999;
+    --bd-color-primario: #ffffff;
+    --bd-color-hover: #999999;
 }
 
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-primaria);
     font-size: 1.8rem;
-    color: var(--color-text-primario);
+    color: var(--color-text-primario);  
 
 }
 

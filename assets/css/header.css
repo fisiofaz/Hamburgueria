@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    gap: 7rem;
+}
+
+.header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header nav .header_menu {
+    display: flex;
+    flex: 1;
+    gap: 5rem;
+}
+
+.header_menu ul {
+    display: flex;
+    gap: 5rem;
+}
+
+.header_menu li a, .hedear_side a {
+    color: var(--color-text-primario);  
+    font-size: 1.8rem;  
+}
+
+.header_menu li a:hover {
+    color: var(--color-text-hover);
+}
+
+.header nav .hedear_side .btn {
+    display: block;
+    border: 1px solid var(--bd-color-primario);
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+}
+
+.header nav .hedear_side .btn:hover {
+    color: var(--color-text-hover);
+    border-color: var(--bg-color-hover);
+}
+
+.header .menu_toogle {
+    display: none;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.header .menu_toogle .menu_toogle--icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.header .menu_toogle .menu_toogle--icon div {
+    width: 3.2rem;
+    height: .6rem;
+    background-color: var(--color-text-primario);
+}
